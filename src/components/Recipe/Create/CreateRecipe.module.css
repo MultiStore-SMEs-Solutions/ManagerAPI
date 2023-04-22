@@ -1,0 +1,332 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    margin: 8rem 0 2rem 10.8rem;
+}
+
+
+.formBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.27);
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+
+    gap: 1.5em;
+    height: auto;
+}
+
+.col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+
+    width: auto;
+    height: auto;
+}
+
+
+.col > input{
+    width: 329px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+
+.col > input:not(.errorInput) {
+    border: none;
+}
+
+.col > input::placeholder {
+    font-family: inherit;
+    font-weight: 500;
+    color: rgba(143, 143, 143, 1);
+    font-size: 17;
+}
+
+.col > label {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.col > button:disabled {
+    background-color: rgba(255, 174, 0, 0.567);
+}
+
+.col > select{
+    width: 349px;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+
+
+.right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 45.5rem;
+}
+
+.col .text{
+    padding: 0px 10px 60px 10px;
+}
+
+.medidas{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:row;
+    align-items: center;
+    width: 21.8rem;
+    height: 5rem;
+    /* background-color: red; */
+    margin-top: 0px; 
+    gap: 10px;
+}
+
+.medidas .col > input{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+
+/* #esto{
+    margin-left: 90px !important;
+} */
+
+.medidas .col > select{
+    width: 170px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+
+.left{
+    width: 45.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tow{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ++++++++++++++++++++++++++++++ */
+
+.send > button{
+    width: 140px;
+    height: auto;
+  
+    color: #f5f5f5;
+    font-family: "Rubik";
+    background-color: rgba(252, 172, 3, 1);
+    font-size: 20px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons > button{
+    width: 110px;
+    height: auto;
+  
+    color: #f5f5f5;
+    font-family: "Rubik";
+    background-color: #8f1414;
+    font-size: 20px;
+    padding: 2px 3px;
+    border-radius: 5px;
+    margin-top: 10px ;
+    cursor: pointer;
+    border: none;
+}
+
+
+/* //!!--------------------------------------------- */
+
+
+.table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 329px;
+    height: 13.4rem;
+
+    /* max-height: 13.4rem; */
+    border-radius: 5px;
+
+    background-color: rgba(183, 177, 177, 0.5);
+    padding: 10px;
+    gap: 1em;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.table::-webkit-scrollbar {
+    padding: 5px 0;
+    width: 10px;
+    border-radius: 300px;
+}
+.table::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.rowTableTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 20rem; */
+
+    position: sticky;
+
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.rowTableTitle > span {
+    width: 50%;
+}
+
+.rowTableData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.rowTableData > span {
+    width: 50%;
+}
+
+.rowTableData > input {
+    width: 50%;
+    text-align: center;
+    border: none;
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.button{
+    border: 1px solid #8f1414;
+    border-radius: 3px;
+    padding-bottom: 2px;
+    color: #8f1414;
+    background-color: transparent;
+}
+
+.button:hover{
+    background-color: #8f1414;
+    color: #f1f1f1;
+}
+
+.col > textarea{
+    /* padding: 20px 20px 60px 20px; */
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+    resize:none;
+}
+
+.errorInput {
+    border: 2px rgb(255, 140, 140) solid !important;
+  }
+
+  .errorInputNumber {
+    border: 2px rgb(255, 140, 140) solid !important;
+    /* height: 1rem; */
+  }
+
+  .errorText {
+    /* max-width: 329px; */
+    color: rgb(251, 133, 133);
+  }
+
+  .col .errortxt{
+    border: 2px rgb(255, 140, 140) solid !important;
+    width: 330px;
+    height: 87px;
+    border-radius: 5px;
+    /* border: none; */
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+    resize:none;
+  }

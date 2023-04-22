@@ -1,0 +1,107 @@
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    height: 47rem;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 521px;
+    margin-top: 100px;
+  }
+  
+  .formBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 621px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(163, 163, 163, 0.23),
+      -5px -5px 30px rgba(163, 163, 163, 0.23);
+  }
+
+  .campo_nombre > input {
+    font-weight:600;
+    font-size: 13px;
+    margin-right:120px;
+    width: 520px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    margin-bottom: 40px;
+  }
+
+  .campo_detalles > textarea {
+    font-weight:800;
+    font-size: 14px;
+    margin-right:120px;
+    width: 520px;
+    height: 85px;
+    border-radius: 10px;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    margin-bottom: 30px;
+  }
+
+  .campo_ingredientes > textarea {
+    font-size: 14px;
+    font-weight:800;
+    margin-right:120px;
+    width: 520px;
+    height: 95px;
+    border-radius: 10px;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+  }
+
+  .campo > label { /*no*/
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
+  .formLeft {
+    margin-left:50px;
+    position: relative;
+    width: 35%;
+    height: 100%;
+  }
+  
+  .formLeft::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 65px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #8f1414;
+  }
+  
+  .formLeft::after {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #8f1414;
+    border-radius: 360px;
+  }
+  
+  .logoForm {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 65px;
+    width: 70px;
+    height: 70px;
+    fill: white;
+    z-index: 2000;
+  }
+  
+  

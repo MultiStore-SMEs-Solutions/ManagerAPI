@@ -1,0 +1,140 @@
+.createIngredient {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 1, 0.411);
+    display: grid;
+    place-items: center;
+    z-index: 5000;
+}
+.container{
+  width: 37rem;
+  min-height: 20rem;
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  padding: 1rem 2rem 3rem 2rem;
+  box-shadow: 0px 0px 100px #10101094;
+  margin-left: 10.8rem;
+  margin-bottom: -3rem;
+
+}
+.container img{
+  width: 1rem;
+  height: 1rem;
+  position: sticky;
+  margin-right: -35rem;
+  cursor: pointer;
+}
+.container h1{
+  margin-top: -.5rem;
+}
+.container form{
+  min-height: 18rem;
+}
+.description .name{
+  margin: 0 1.5rem 0 3.7rem ;
+}
+.description{
+  /* display: grid; */
+  display: flex;
+  width: 93%;
+  justify-content: space-around;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+.ingredients{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  height: 15rem;
+  border-radius: .5rem;
+  background-color: rgb(223, 223, 223);
+  border: 2px solid rgb(223, 223, 223);
+  padding: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.divInfo{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.inputs{
+  width: 32.5rem;
+  /* display: grid; */
+  display: flex;
+  justify-content: space-around;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: white;
+  border-radius: .5rem;
+  padding: .5rem;
+}
+
+.inputs input{
+  border-radius: .4rem;
+  width: 10.7rem;
+  height: 1.6rem;
+  border: 0px;
+  background-color: rgba(183, 177, 177, 0.5);
+}
+
+.inputs select{
+  width: 11rem;
+  /* margin: auto; */
+  height: 1.7rem;
+  border-radius: .4rem;
+  background-color: rgba(183, 177, 177, 0.5);
+  border: 0px;
+/* padding-right: 9px; */
+
+}
+
+.divButton{
+  display: flex;
+  justify-content: center;
+}
+
+.buttonNew{
+  width: fit-content;
+  height: fit-content;
+  padding: .2rem;
+  cursor: pointer;
+  position: sticky;
+  margin-bottom: 7px;
+  /* top: 6.7rem; */
+
+  background-color: #f5f5f5;
+  padding: .3rem 1.5rem;
+  border: 1px solid #101010;
+  border-radius: .4rem;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.buttonNew:hover{
+  background-color: rgb(223, 223, 223);
+}
+
+
+.submit{
+  width: fit-content;
+  cursor: pointer;
+  margin-top: 1rem;
+
+  background-color: #fcac03;
+  color: #f5f5f5;
+  padding: .3rem 1.4rem;
+  border: 0px;
+  border-radius: .4rem;
+  font-size: 18px;
+  font-family:"Rubik", sans-serif;
+  font-weight: bold;
+}
+
+.submit:hover{
+  background-color: #ffbb28;
+}
+

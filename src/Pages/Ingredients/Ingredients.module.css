@@ -1,0 +1,9 @@
+.page{
+      display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 100vw;
+  /* margin-right: -12rem; */
+  /* padding-right: 2rem; */
+  padding-top: 5rem;
+}

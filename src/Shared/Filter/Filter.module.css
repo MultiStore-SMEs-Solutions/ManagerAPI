@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #ffffff;
+  /* background-color: red; */
+
+  flex-direction: column;
+  /* height: 32rem; */
+  /* width: 13vw; */
+  width: auto;
+  height: auto;
+  gap: 20px;
+  margin-right: 35px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.27);
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: green; */
+
+  width: 150px;
+  height: auto;
+  gap: 1em;
+  margin: 0 1rem;
+
+}
+
+.col > label{
+  font-family: 'Rubik';
+  margin-bottom: -12px ;
+}
+
+.col > select{
+  height: 30px;
+  width: 149px;
+  padding: 0 0 0 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  
+  background-color: rgba(227, 227, 227, 0.345);
+}
+
+.col > select > option{
+  font-weight: 400;
+}
+
+/* ************************* */
+
+.col1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 150px;
+  height: auto;
+  gap: 1em;
+  margin-bottom: 1rem;
+
+
+}
+
+.col1 > label{
+  font-family: 'Rubik';
+  margin-bottom: -12px ;
+}
+
+.col1 > select{
+  height: 30px;
+  padding: 0 7px;
+  border-radius: 2px;
+  cursor: pointer;
+  
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  
+  background-color: rgba(227, 227, 227, 0.345);
+}
+
+.col1 > select > option{
+  font-weight: 400;
+}
+
+
+.colButton{
+  padding: 7px 41.4px;
+  border-radius: 2px;
+  background-color: #8f1414;
+  color: #ffffff;
+
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.colButton:hover{
+  background-color: rgb(222, 69, 69);
+
+}

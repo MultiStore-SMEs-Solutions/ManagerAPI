@@ -1,0 +1,46 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .8rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto .5fr auto;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 27rem;
+    gap: 1rem;
+    /* padding-left: 5rem; */
+    align-items: center;
+    justify-content: center;
+}
+.container div{
+    /* border: 1px solid red; */
+    width: fit-content;
+}
+.container img{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.tickets{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid gray;
+    background-color: rgb(209, 209, 209);
+    width: fit-content;
+    gap: 1rem;
+    font-family: "Rubik One", monospace;
+    padding: 1rem;
+}
+.ticket{
+    display: flex;
+    flex-direction: row;
+    border-radius: .5rem;
+    background-color: white;
+    gap: 1rem;
+    padding: .3rem;
+    cursor: pointer;
+}

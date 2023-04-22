@@ -1,0 +1,145 @@
+.page{
+    min-height: 80vh;
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0 0 11rem;
+}
+
+.container{
+    border-radius: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: .2rem 1rem 2rem 1rem;
+    background-color: rgb(223, 223, 223);
+    /* background-color: green; */
+}
+
+.subContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    border: 1px solid gray;
+    background-color: white;
+    width: 90%;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+    /* padding: 2rem; */
+}
+.data span{
+    width: fit-content;
+}
+.icoOpen{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+.icoClose{
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(187, 187, 187);
+
+    width: 90%;
+    padding: 0rem 2rem;
+    gap: .5rem;
+    place-items: center;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.message{
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 11rem;
+    width: fit-content;
+    padding: 2rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.message h2{
+    font-size: 3rem;
+}
+
+.message span{
+    font-size: xx-large;
+}
+
+/* ******************* */
+
+
+.colIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 20%;
+    max-width: 15%;
+    text-align: center;
+    line-height: 50px;
+    /* padding: 5px 0; */
+  }
+  
+.ok{
+    margin-left: 5px;
+}
+
+  .colIcon > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 76, 19);
+    padding: 5px 10px;
+    border-radius: 40px;
+    border: 0;
+    margin: 2px 5px;
+    color: white;
+    font-size: 15px;
+    font-family: "Rubik";
+    cursor: pointer;
+  }
+  
+  .colIcon > button:hover{
+    background-color: rgb(255, 88, 22);
+    color: white;
+  }
+
+  /* --------------- */
+
+  .colIcon .finish{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 160, 40);
+    padding: px 10px;
+    border-radius: 40px;
+    border: 0;
+    margin: 2px 5px;
+    color: white;
+    font-family: "Rubik";
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .colIcon .finish:hover{
+    background-color: rgb(44, 197, 69);
+    color: white;
+  }

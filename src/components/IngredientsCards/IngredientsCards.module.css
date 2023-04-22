@@ -1,0 +1,58 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    padding-right: 7rem;
+    padding-top: 2rem;
+  /* box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.27); */
+
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+    margin-bottom: 1rem;
+    font-size: large;
+    margin-left: -4rem;
+}
+.description div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* grid-template-columns: repeat(2, 1fr); */
+    width: 14rem;
+    /* margin: 0px .1rem; */
+    font-family: "Rubik", sans-serif;
+    /* background-color: green; */
+}
+
+/* .id{
+    margin-left: -2rem;
+} */
+
+.name{
+    margin-left: 1.3rem;
+}
+
+.medida{
+    margin-right: -1rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-content: center;
+    place-self: center;
+    width: 100%;
+    border-radius: 1rem;
+    gap: 2rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    background-color: white;
+    /* border: 1px solid black; */
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.27);
+
+}

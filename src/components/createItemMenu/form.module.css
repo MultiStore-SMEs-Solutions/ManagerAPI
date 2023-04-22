@@ -1,0 +1,409 @@
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44.5%;
+  height: auto;
+  border-radius: 5px;
+  margin: 8rem 0 2rem 10.8rem;
+}
+
+.formBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1021px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.27);
+}
+
+.errorInput {
+    border: 2px rgb(255, 140, 140) solid !important;
+}
+.col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: red; */
+
+    width: auto;
+    height: auto;
+}
+
+
+.col > input {
+    width: 329px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+
+.col > input:not(.errorInput) {
+    border: none;
+}
+
+.col > input::placeholder {
+    font-family: inherit;
+    font-weight: 500;
+    color: rgba(143, 143, 143, 1);
+    font-size: 17;
+}
+
+.col > label {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* +++++++++++++++++++++++++++++ */
+.col1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -27px;
+
+    width: auto;
+    height: auto;
+}
+
+
+.col1 > input {
+    width: 329px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+
+.col1 > input:not(.errorInput) {
+    border: none;
+}
+
+.col1 > input::placeholder {
+    font-family: inherit;
+    font-weight: 500;
+    color: rgba(143, 143, 143, 1);
+    font-size: 17;
+}
+
+.col1 > label {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+}
+/* +++++++++++++++++++++++++++++ */
+
+
+.col > button {
+    width: 140px;
+    height: auto;
+  
+    color: #f5f5f5;
+    font-family: "Rubik";
+    background-color: rgba(252, 172, 3, 1);
+    /* font-weight: 900; */
+    font-size: 20px;
+    padding: 4px 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.col > button:disabled {
+    background-color: rgba(255, 174, 0, 0.567);
+}
+
+.formRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 1.5em;
+    width: 65%;
+    height: auto;
+    /* margin-left: -2rem; */
+}
+
+.imageUser{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 1.5rem;
+  }
+
+/* .formLeft {
+    position: relative;
+    width: 35%;
+    height: 100%;
+}
+
+.formLeft::before {
+    content: "";
+    position: absolute;
+
+    width: 130px;
+    height: 65px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #8f1414;
+
+    z-index: 100;
+}
+
+.formLeft::after {
+    content: "";
+    position: absolute;
+
+    width: 130px;
+    height: 130px;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+    background-color: #8f1414;
+    border-radius: 360px;
+
+    z-index: 100;
+} */
+
+/* .formLeft > img:first-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+  margin-left: -2rem;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+} */
+
+.checkboxCol {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.checkboxCol > label {
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.checkboxCol > input {
+    width: 15.62px;
+    height: 15.62px;
+}
+
+/* .logoForm {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 65px;
+
+    width: 70px;
+    height: 70px;
+    fill: white;
+    color: white;
+    z-index: 200;
+} */
+
+.errorText {
+    position: absolute;
+    max-width: 329px;
+    color: rgb(251, 133, 133);
+}
+
+.col .label{
+    margin-bottom: -20px;
+}
+
+.table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 329px;
+
+    max-height: 140px;
+    border-radius: 5px;
+
+    background-color: rgba(183, 177, 177, 0.5);
+    padding: 10px;
+    gap: 1em;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.table::-webkit-scrollbar {
+    padding: 5px 0;
+    width: 10px;
+    border-radius: 300px;
+}
+.table::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.table::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.rowTableTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    position: sticky;
+
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.rowTableTitle > span {
+    width: 50%;
+}
+
+.rowTableData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.rowTableData > span {
+    width: 50%;
+}
+
+.rowTableData > input {
+    width: 50%;
+    text-align: center;
+    height: auto;
+    border: none;
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.rowTableData >img{
+    position: sticky;
+    width: 1rem;
+    height: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+/* .image {
+    position: absolute;
+    background-color: #999999;
+    width: auto;
+    height: auto;
+    filter: opacity(0);
+    z-index: -10;
+    transition: 0.5s;
+} */
+
+/* .image > img {
+    right: 20px;
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.5rem;
+} */
+
+/* .image:hover {
+    z-index: 10;
+} */
+
+/* .show {
+    position: absolute;
+    background-color: #999999;
+    width: auto;
+    height: auto;
+    z-index: 10;
+    transition: 0.5;
+}
+
+.show > img {
+    right: 20px;
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 0.5rem;
+} */
+
+/* +*+++++++++++++++++++++++++ */
+
+.contentfile {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  .inputfile {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  
+
+.rowData{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    width: 22.5rem;
+}
+
+
+.rowData .col > input {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(143, 143, 143, 1);
+    background-color: rgba(183, 177, 177, 0.5);
+    font-family: inherit;
+    font-size: 17;
+    padding: 2px 10px;
+}
+.eraseButton{
+    background-color: red;
+ 
+    color: white;
+ 
+}
+.divSpanButtons{
+    display: flex;
+    flex-direction: row ;
+  justify-content: space-between;
+
+width: 100%;
+
+    
+}
+

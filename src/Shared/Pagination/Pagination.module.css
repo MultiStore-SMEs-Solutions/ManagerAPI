@@ -1,0 +1,14 @@
+.pag {
+    display: flex;
+    padding: 20px 0;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 2rem;
+    padding: 10px 0;
+}
+

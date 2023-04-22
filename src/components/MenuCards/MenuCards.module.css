@@ -1,0 +1,29 @@
+.containerBig {
+  max-width: 65%;
+  min-width: 65vw;
+}
+
+.cards {
+  max-width: 70vw;
+  width: 100%;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.27);
+  /* padding: 10px; */
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.description > span {
+  width: 15%;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  padding: 15px 0;
+
+  border-bottom: 2px solid grey;
+}

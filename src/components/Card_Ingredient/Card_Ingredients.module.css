@@ -1,0 +1,42 @@
+.ingredient {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 20rem;
+    height: 3.5rem;
+    /* border-radius: 0.5rem; */
+    background-color: white;
+    /* background-color: red; */
+    align-items: center;
+    margin-left: 4.6rem;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(153, 153, 153);
+}
+
+.ingredient div {
+    height: 2.7rem;
+    border-radius: 0.5rem;
+    /* background-color: rgba(128, 128, 128, 0.404); */
+    /* background-color: green; */
+    display: grid;
+    place-items: center;
+}
+.id {
+    width: 3rem;
+    margin-left: 1rem;
+}
+.name{
+    width: 9rem;
+    margin-left: 1rem;
+
+}
+.medida {
+    width: 3rem;
+    margin-left: 1rem;
+}
+.image{
+    cursor: pointer;
+}
+.image img{
+    width: 1.5rem;
+    height: 1.5rem;
+}

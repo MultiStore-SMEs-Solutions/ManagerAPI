@@ -1,0 +1,183 @@
+.editStore {
+  display: flex;
+  flex-direction: column;
+  height: 57rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 621px;
+  margin-top: 100px;
+}
+
+.formBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1021px;
+  height: 621px;
+  border-radius: 10px;
+
+  box-shadow: 5px 5px 30px rgba(163, 163, 163, 0.23),
+    -5px -5px 30px rgba(163, 163, 163, 0.23);
+}
+
+.col {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  width: auto;
+  height: auto;
+}
+
+.col > input {
+  width: 329px;
+  height: 37px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(143, 143, 143, 1);
+  background-color: rgba(183, 177, 177, 0.5);
+  font-family: inherit;
+  font-size: 17;
+  padding: 2px 10px;
+}
+
+.col > input::placeholder {
+  font-family: inherit;
+  font-weight: 500;
+  color: rgba(143, 143, 143, 1);
+  font-size: 17;
+}
+
+.col > label {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.col > button {
+  width: 126px;
+  height: auto;
+
+  color: white;
+  background-color: rgba(252, 172, 3, 1);
+  font-weight: 900;
+  font-size: 24px;
+  padding: 4px 5px;
+  border-radius: 5px;
+
+  border: none;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  width: auto;
+  height: auto;
+}
+
+.description > label {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.description > textarea {
+  width: 329px;
+  height: 150px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(143, 143, 143, 1);
+  background-color: rgba(183, 177, 177, 0.5);
+  font-family: inherit;
+  font-size: 17;
+  padding: 10px 10px;
+  resize: none;
+}
+
+.description > textarea::placeholder {
+  font-family: inherit;
+  font-weight: 500;
+  color: rgba(143, 143, 143, 1);
+  font-size: 17;
+}
+
+.formRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 1.5em;
+  width: 65%;
+  height: auto;
+}
+
+.formLeft {
+  position: relative;
+  width: 35%;
+  height: 100%;
+}
+
+.formLeft::before {
+  content: "";
+  position: absolute;
+
+  width: 130px;
+  height: 65px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #8f1414;
+
+  z-index: 100;
+}
+
+.formLeft::after {
+  content: "";
+  position: absolute;
+
+  width: 130px;
+  height: 130px;
+  left: 50%;
+
+  transform: translate(-50%, 0);
+  background-color: #8f1414;
+  border-radius: 360px;
+
+  z-index: 100;
+}
+
+.formLeft > img:first-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.logoForm {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 65px;
+
+  width: 70px;
+  height: 70px;
+  fill: white;
+  color: white;
+  z-index: 2000;
+}
